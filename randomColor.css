@@ -1,0 +1,36 @@
+body,html{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    background-color: white;
+    width: 400px;
+    height: 100px;
+    line-height: 50px;
+    border-radius: 10px;
+    
+
+}
+
+button{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 2.5%;
+    width: 380px;
+    height: 40px;
+    border-radius: 10px;
+}
+
